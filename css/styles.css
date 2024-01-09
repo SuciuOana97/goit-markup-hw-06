@@ -669,6 +669,29 @@ body {
   margin-right: 120px;
 }
 
+.footer-subscribe {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.title-subscribe {
+  color: var(--WHITE, #fff);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
 .svg {
   fill: #f4f4fd;
 }
